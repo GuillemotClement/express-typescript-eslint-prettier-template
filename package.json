@@ -21,12 +21,16 @@
     "express": "^4.21.2"
   },
   "devDependencies": {
+    "@eslint/js": "^9.18.0",
     "@tsconfig/node-lts": "^22.0.1",
     "@tsconfig/node22": "^22.0.0",
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.7",
+    "eslint": "^9.18.0",
+    "eslint-plugin-perfectionist": "^4.6.0",
     "prettier": "^3.4.2",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0"
   }
 }
