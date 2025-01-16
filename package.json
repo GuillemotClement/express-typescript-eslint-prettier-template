@@ -17,6 +17,9 @@
   "keywords": [],
   "author": "Clément GUILLEMOT",
   "license": "MIT",
+  "imports": {
+    "#*": "./src/*"
+  },
   "dependencies": {
     "express": "^4.21.2"
   },
