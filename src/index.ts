@@ -1,6 +1,8 @@
 import express from "express";
+// import { middleware } from "#middlewares/middlewares.js";
+
 const app = express();
-const port = "3010";
+const port = process.env.PORT ?? "9001";
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
